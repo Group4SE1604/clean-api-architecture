@@ -1,0 +1,11 @@
+C:\Users\thaib\Desktop\FALL23\Learn Web API\BuberDinner\BuberDinner.Domain\bin\Debug\net7.0\BuberDinner.Domain.deps.json
+C:\Users\thaib\Desktop\FALL23\Learn Web API\BuberDinner\BuberDinner.Domain\bin\Debug\net7.0\BuberDinner.Domain.dll
+C:\Users\thaib\Desktop\FALL23\Learn Web API\BuberDinner\BuberDinner.Domain\bin\Debug\net7.0\BuberDinner.Domain.pdb
+C:\Users\thaib\Desktop\FALL23\Learn Web API\BuberDinner\BuberDinner.Domain\obj\Debug\net7.0\BuberDinner.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\thaib\Desktop\FALL23\Learn Web API\BuberDinner\BuberDinner.Domain\obj\Debug\net7.0\BuberDinner.Domain.AssemblyInfoInputs.cache
+C:\Users\thaib\Desktop\FALL23\Learn Web API\BuberDinner\BuberDinner.Domain\obj\Debug\net7.0\BuberDinner.Domain.AssemblyInfo.cs
+C:\Users\thaib\Desktop\FALL23\Learn Web API\BuberDinner\BuberDinner.Domain\obj\Debug\net7.0\BuberDinner.Domain.csproj.CoreCompileInputs.cache
+C:\Users\thaib\Desktop\FALL23\Learn Web API\BuberDinner\BuberDinner.Domain\obj\Debug\net7.0\BuberDinner.Domain.dll
+C:\Users\thaib\Desktop\FALL23\Learn Web API\BuberDinner\BuberDinner.Domain\obj\Debug\net7.0\refint\BuberDinner.Domain.dll
+C:\Users\thaib\Desktop\FALL23\Learn Web API\BuberDinner\BuberDinner.Domain\obj\Debug\net7.0\BuberDinner.Domain.pdb
+C:\Users\thaib\Desktop\FALL23\Learn Web API\BuberDinner\BuberDinner.Domain\obj\Debug\net7.0\ref\BuberDinner.Domain.dll
