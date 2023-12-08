@@ -47,7 +47,7 @@ namespace BuberDinner.Application.Services.Auth
         {
             if (_userRepository.GetUserByEmail(email) is not null)
             {
-                throw new Exception($"User with email: {email} already exist");
+                throw new HttpRequestException($"User with email: {email} already exist");
             }
             var user = new User
             {
@@ -67,8 +67,6 @@ namespace BuberDinner.Application.Services.Auth
                lastName,
                email,
                token
-
-
            );
         }
     }

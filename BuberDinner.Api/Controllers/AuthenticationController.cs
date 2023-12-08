@@ -7,6 +7,7 @@ namespace BuberDinner.Api.Controllers
 {
     [ApiController]
     [Route("[controller]/[action]")]
+    [ErrorHandlingFilter]
     public class AuthenticationController : ControllerBase
     {
         private readonly IAuthService _authService;
@@ -24,9 +25,6 @@ namespace BuberDinner.Api.Controllers
                 request.LastName,
                 request.Email,
                 request.Password
-
-
-
             );
             var response = new RegisterResponse(
                 "Register success",
