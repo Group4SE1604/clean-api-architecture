@@ -24,7 +24,7 @@ namespace BuberDinner.Infrastructure
             services.AddSingleton<IDatetimeProivder, DatetimeProvider>();
             services.Configure<JwtSettings>(configuration.GetSection(JwtSettings.SectionName));
             services.AddScoped<IUserRepository, UserRepository>();
-            services.AddDbContext<AppDbContext>(options => options.UseNpgsql(configuration.GetConnectionString("DefaultConnection")));
+            services.AddDbContext<AppDbContext>(options => options.UseSqlServer(configuration.GetConnectionString("DefaultConnection")));
             return services;
         }
 
