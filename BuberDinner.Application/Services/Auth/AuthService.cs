@@ -2,6 +2,7 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using BuberDinner.Application.Common.Exceptions;
 using BuberDinner.Application.Common.Interfaces.Auth;
 using BuberDinner.Application.Persistence;
 using BuberDinner.Domain.Entity;
@@ -24,12 +25,12 @@ namespace BuberDinner.Application.Services.Auth
             User? user = _userRepository.GetUserByEmail(email);
             if (user is null)
             {
-                throw new Exception("User with given email not exsit");
+                throw new InvalidOperationException("User with given email not exsit");
             }
 
             if (user.Password != password)
             {
-                throw new Exception("Invalid password");
+                throw new UnauthorizedAccessException("Invalid password");
             }
             var token = _jwtGenerator.GenrateToken(user.Id, user.FirstName, user.LastName);
 
@@ -47,7 +48,7 @@ namespace BuberDinner.Application.Services.Auth
         {
             if (_userRepository.GetUserByEmail(email) is not null)
             {
-                throw new HttpRequestException($"User with email: {email} already exist");
+                throw new DuplicateEmailException("Email already exsit");
             }
             var user = new User
             {
