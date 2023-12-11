@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "qOaDFG2h5YDSN5G8f4qALI62+RXxdSWccW7Z0BWWf/52uXFGak+5LfApG+sYUCNrtZyh4YHu7oqXvom2ubh4WQ==",
+  "dgSpecHash": "xVscM5Ncy6VbA31Z/ea3oUwRs55AqRLATLI4GIAe07NoFHLJTK4+tlpmIlSyS98VEloeSeATg0zs/L3hMY0hww==",
   "success": true,
   "projectFilePath": "C:\\Users\\thaib\\Desktop\\FALL23\\Learn Web API\\BuberDinner\\BuberDinner.Infrastructure\\BuberDinner.Infrastructure.csproj",
   "expectedPackageFiles": [
@@ -12,7 +12,7 @@
     "C:\\Users\\thaib\\.nuget\\packages\\microsoft.entityframeworkcore.analyzers\\6.0.12\\microsoft.entityframeworkcore.analyzers.6.0.12.nupkg.sha512",
     "C:\\Users\\thaib\\.nuget\\packages\\microsoft.entityframeworkcore.design\\6.0.12\\microsoft.entityframeworkcore.design.6.0.12.nupkg.sha512",
     "C:\\Users\\thaib\\.nuget\\packages\\microsoft.entityframeworkcore.relational\\6.0.12\\microsoft.entityframeworkcore.relational.6.0.12.nupkg.sha512",
-    "C:\\Users\\thaib\\.nuget\\packages\\microsoft.entityframeworkcore.sqlserver\\6.0.12\\microsoft.entityframeworkcore.sqlserver.6.0.12.nupkg.sha512",
+    "C:\\Users\\thaib\\.nuget\\packages\\microsoft.entityframeworkcore.sqlserver\\6.0.0\\microsoft.entityframeworkcore.sqlserver.6.0.0.nupkg.sha512",
     "C:\\Users\\thaib\\.nuget\\packages\\microsoft.entityframeworkcore.tools\\6.0.12\\microsoft.entityframeworkcore.tools.6.0.12.nupkg.sha512",
     "C:\\Users\\thaib\\.nuget\\packages\\microsoft.extensions.caching.abstractions\\6.0.0\\microsoft.extensions.caching.abstractions.6.0.0.nupkg.sha512",
     "C:\\Users\\thaib\\.nuget\\packages\\microsoft.extensions.caching.memory\\6.0.1\\microsoft.extensions.caching.memory.6.0.1.nupkg.sha512",

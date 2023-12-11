@@ -134,15 +134,15 @@
           }
         }
       },
-      "Microsoft.EntityFrameworkCore.SqlServer/6.0.12": {
+      "Microsoft.EntityFrameworkCore.SqlServer/6.0.0": {
         "dependencies": {
           "Microsoft.Data.SqlClient": "2.1.4",
           "Microsoft.EntityFrameworkCore.Relational": "6.0.12"
         },
         "runtime": {
           "lib/net6.0/Microsoft.EntityFrameworkCore.SqlServer.dll": {
-            "assemblyVersion": "6.0.12.0",
-            "fileVersion": "6.0.1222.56411"
+            "assemblyVersion": "6.0.0.0",
+            "fileVersion": "6.0.21.52301"
           }
         }
       },
@@ -533,7 +533,7 @@
         "dependencies": {
           "BuberDinner.Application": "1.0.0",
           "Microsoft.EntityFrameworkCore": "6.0.12",
-          "Microsoft.EntityFrameworkCore.SqlServer": "6.0.12",
+          "Microsoft.EntityFrameworkCore.SqlServer": "6.0.0",
           "Microsoft.Extensions.Configuration": "6.0.0",
           "Microsoft.Extensions.Options.ConfigurationExtensions": "6.0.0",
           "System.IdentityModel.Tokens.Jwt": "7.0.3"
@@ -606,12 +606,12 @@
       "path": "microsoft.entityframeworkcore.relational/6.0.12",
       "hashPath": "microsoft.entityframeworkcore.relational.6.0.12.nupkg.sha512"
     },
-    "Microsoft.EntityFrameworkCore.SqlServer/6.0.12": {
+    "Microsoft.EntityFrameworkCore.SqlServer/6.0.0": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-bdKnSz1w+WZz9QYWhs3wwGuMn4YssjdR+HOBpzChQ6C3+dblq4Pammm5fzugcPOhTgCiWftOT2jPOT5hEy4bYg==",
-      "path": "microsoft.entityframeworkcore.sqlserver/6.0.12",
-      "hashPath": "microsoft.entityframeworkcore.sqlserver.6.0.12.nupkg.sha512"
+      "sha512": "sha512-1rYYHrvOIN1bXyN9qAVd0WhmTjbZNosyrMoAL4wRiw5pu65QazwjuVV6K1IWKD4AXPxQD7+k4CxAMVTPY//UrA==",
+      "path": "microsoft.entityframeworkcore.sqlserver/6.0.0",
+      "hashPath": "microsoft.entityframeworkcore.sqlserver.6.0.0.nupkg.sha512"
     },
     "Microsoft.Extensions.ApiDescription.Server/6.0.5": {
       "type": "package",

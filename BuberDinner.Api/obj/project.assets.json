@@ -155,11 +155,11 @@
           }
         }
       },
-      "Microsoft.EntityFrameworkCore.SqlServer/6.0.12": {
+      "Microsoft.EntityFrameworkCore.SqlServer/6.0.0": {
         "type": "package",
         "dependencies": {
           "Microsoft.Data.SqlClient": "2.1.4",
-          "Microsoft.EntityFrameworkCore.Relational": "6.0.12"
+          "Microsoft.EntityFrameworkCore.Relational": "6.0.0"
         },
         "compile": {
           "lib/net6.0/Microsoft.EntityFrameworkCore.SqlServer.dll": {
@@ -939,7 +939,7 @@
         "dependencies": {
           "BuberDinner.Application": "1.0.0",
           "Microsoft.EntityFrameworkCore": "6.0.12",
-          "Microsoft.EntityFrameworkCore.SqlServer": "6.0.12",
+          "Microsoft.EntityFrameworkCore.SqlServer": "6.0.0",
           "Microsoft.Extensions.Configuration": "6.0.0",
           "Microsoft.Extensions.Options.ConfigurationExtensions": "6.0.0",
           "System.IdentityModel.Tokens.Jwt": "7.0.3"
@@ -1129,17 +1129,17 @@
         "microsoft.entityframeworkcore.relational.nuspec"
       ]
     },
-    "Microsoft.EntityFrameworkCore.SqlServer/6.0.12": {
-      "sha512": "bdKnSz1w+WZz9QYWhs3wwGuMn4YssjdR+HOBpzChQ6C3+dblq4Pammm5fzugcPOhTgCiWftOT2jPOT5hEy4bYg==",
+    "Microsoft.EntityFrameworkCore.SqlServer/6.0.0": {
+      "sha512": "1rYYHrvOIN1bXyN9qAVd0WhmTjbZNosyrMoAL4wRiw5pu65QazwjuVV6K1IWKD4AXPxQD7+k4CxAMVTPY//UrA==",
       "type": "package",
-      "path": "microsoft.entityframeworkcore.sqlserver/6.0.12",
+      "path": "microsoft.entityframeworkcore.sqlserver/6.0.0",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
         "Icon.png",
         "lib/net6.0/Microsoft.EntityFrameworkCore.SqlServer.dll",
         "lib/net6.0/Microsoft.EntityFrameworkCore.SqlServer.xml",
-        "microsoft.entityframeworkcore.sqlserver.6.0.12.nupkg.sha512",
+        "microsoft.entityframeworkcore.sqlserver.6.0.0.nupkg.sha512",
         "microsoft.entityframeworkcore.sqlserver.nuspec"
       ]
     },
