@@ -1,6 +1,5 @@
 using BuberDinner.Api;
 using BuberDinner.Api.Filter;
-using BuberDinner.Api.Middleware;
 using BuberDinner.Application;
 using BuberDinner.Infrastructure;
 var builder = WebApplication.CreateBuilder(args);

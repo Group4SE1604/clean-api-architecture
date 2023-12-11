@@ -12,6 +12,8 @@ using Microsoft.Extensions.DependencyInjection;
 using BuberDinner.Application.Persistence;
 using BuberDinner.Infrastructure.Persistence;
 using Microsoft.EntityFrameworkCore;
+using BuberDinner.Application.Services.Menu;
+using BuberDinner.Infrastructure.Services.Menu;
 
 namespace BuberDinner.Infrastructure
 {
@@ -24,7 +26,12 @@ namespace BuberDinner.Infrastructure
             services.AddSingleton<IDatetimeProivder, DatetimeProvider>();
             services.Configure<JwtSettings>(configuration.GetSection(JwtSettings.SectionName));
             services.AddScoped<IUserRepository, UserRepository>();
+            services.AddScoped<IMenuRepository, MenuRepository>();
+            services.AddScoped<IMenuItemRepository, MenuItemRepository>();
             services.AddDbContext<AppDbContext>(options => options.UseSqlServer(configuration.GetConnectionString("DefaultConnection")));
+            services.AddScoped<IMenuService, MenuService>();
+            services.AddScoped<IMenuItemService, MenuItemService>();
+
             return services;
         }
 
