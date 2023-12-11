@@ -1,10 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "xVscM5Ncy6VbA31Z/ea3oUwRs55AqRLATLI4GIAe07NoFHLJTK4+tlpmIlSyS98VEloeSeATg0zs/L3hMY0hww==",
+  "dgSpecHash": "HT4yavDDs2K1/WQXMAgRLuOHd4jazWMRsY69o4cCkgfFJ103Ulmn1pb/ylATmIKIAHK6TB4mkWEkN+ZmZd9agw==",
   "success": true,
   "projectFilePath": "C:\\Users\\thaib\\Desktop\\FALL23\\Learn Web API\\BuberDinner\\BuberDinner.Infrastructure\\BuberDinner.Infrastructure.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\thaib\\.nuget\\packages\\automapper\\12.0.1\\automapper.12.0.1.nupkg.sha512",
+    "C:\\Users\\thaib\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\12.0.1\\automapper.extensions.microsoft.dependencyinjection.12.0.1.nupkg.sha512",
     "C:\\Users\\thaib\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
+    "C:\\Users\\thaib\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
     "C:\\Users\\thaib\\.nuget\\packages\\microsoft.data.sqlclient\\2.1.4\\microsoft.data.sqlclient.2.1.4.nupkg.sha512",
     "C:\\Users\\thaib\\.nuget\\packages\\microsoft.data.sqlclient.sni.runtime\\2.1.1\\microsoft.data.sqlclient.sni.runtime.2.1.1.nupkg.sha512",
     "C:\\Users\\thaib\\.nuget\\packages\\microsoft.entityframeworkcore\\6.0.12\\microsoft.entityframeworkcore.6.0.12.nupkg.sha512",
