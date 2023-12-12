@@ -1,0 +1,12 @@
+C:\Users\thaib\Desktop\FALL23\Learn Web API\BuberDinner\out\BuberDinner.Application.dll
+C:\Users\thaib\Desktop\FALL23\Learn Web API\BuberDinner\out\BuberDinner.Application.deps.json
+C:\Users\thaib\Desktop\FALL23\Learn Web API\BuberDinner\out\BuberDinner.Application.pdb
+C:\Users\thaib\Desktop\FALL23\Learn Web API\BuberDinner\out\AutoMapper.dll
+C:\Users\thaib\Desktop\FALL23\Learn Web API\BuberDinner\out\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+C:\Users\thaib\Desktop\FALL23\Learn Web API\BuberDinner\out\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\thaib\Desktop\FALL23\Learn Web API\BuberDinner\out\Microsoft.Extensions.Options.dll
+C:\Users\thaib\Desktop\FALL23\Learn Web API\BuberDinner\out\Microsoft.Extensions.Primitives.dll
+C:\Users\thaib\Desktop\FALL23\Learn Web API\BuberDinner\out\BuberDinner.Contracts.dll
+C:\Users\thaib\Desktop\FALL23\Learn Web API\BuberDinner\out\BuberDinner.Domain.dll
+C:\Users\thaib\Desktop\FALL23\Learn Web API\BuberDinner\out\BuberDinner.Domain.pdb
+C:\Users\thaib\Desktop\FALL23\Learn Web API\BuberDinner\out\BuberDinner.Contracts.pdb

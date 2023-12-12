@@ -1,0 +1,3 @@
+C:\Users\thaib\Desktop\FALL23\Learn Web API\BuberDinner\out\BuberDinner.Domain.dll
+C:\Users\thaib\Desktop\FALL23\Learn Web API\BuberDinner\out\BuberDinner.Domain.deps.json
+C:\Users\thaib\Desktop\FALL23\Learn Web API\BuberDinner\out\BuberDinner.Domain.pdb

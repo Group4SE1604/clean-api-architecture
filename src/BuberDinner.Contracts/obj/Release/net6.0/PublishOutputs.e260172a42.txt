@@ -1,0 +1,3 @@
+C:\Users\thaib\Desktop\FALL23\Learn Web API\BuberDinner\out\BuberDinner.Contracts.dll
+C:\Users\thaib\Desktop\FALL23\Learn Web API\BuberDinner\out\BuberDinner.Contracts.deps.json
+C:\Users\thaib\Desktop\FALL23\Learn Web API\BuberDinner\out\BuberDinner.Contracts.pdb
