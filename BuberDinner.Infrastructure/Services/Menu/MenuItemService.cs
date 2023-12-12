@@ -4,6 +4,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using BuberDinner.Application.Persistence;
 using BuberDinner.Application.Services.Menu;
+using BuberDinner.Contracts.Common;
 using BuberDinner.Domain.Entity;
 
 namespace BuberDinner.Infrastructure.Services.Menu
@@ -21,6 +22,24 @@ namespace BuberDinner.Infrastructure.Services.Menu
         public void DeleteMenuItems(Guid itemId)
         {
             throw new NotImplementedException();
+        }
+
+        public PaginatedResponse<MenuItem> GetAll(PaginationFilter filter)
+        {
+            var items = _menuItemRepository.GetMenuItems()
+            .Skip(filter.PageSize * (filter.PageNumber - 1))
+            .Take(filter.PageSize).ToList();
+
+            var totalPage = _menuItemRepository.GetMenuItems().Count / filter.PageSize;
+
+
+            var pagedItem = new PaginatedResponse<MenuItem>(filter.PageNumber, filter.PageSize, totalPage, items);
+
+            return pagedItem;
+
+
+
+
         }
 
         public MenuItem GetMenuByName(string menuName)

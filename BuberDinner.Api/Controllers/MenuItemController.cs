@@ -5,6 +5,7 @@ using System.Threading.Tasks;
 using BuberDinner.Api.Filter;
 using BuberDinner.Application.Persistence;
 using BuberDinner.Application.Services.Menu;
+using BuberDinner.Contracts.Common;
 using BuberDinner.Domain.Entity;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Filters;
@@ -26,9 +27,10 @@ namespace BuberDinner.Api.Controllers
             _menuItemService = menuItemService;
         }
         [HttpGet]
-        public IActionResult GetAll()
+        public IActionResult GetAll([FromQuery] PaginationFilter filter)
         {
-            var menuItems = _menuItemRepository.GetMenuItems();
+            var menuItems = _menuItemService.GetAll(filter);
+            
             return Ok(menuItems);
         }
 
