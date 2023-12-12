@@ -7,10 +7,8 @@ namespace BuberDinner.Contracts.MenuItems
 {
     public class MenuItemDto
     {
-        public Guid ItemId { get; set; } = Guid.NewGuid();
         public string ItemName { get; set; } = null!;
         public decimal ItemPrice { get; set; }
-        public Guid MenuId { get; set; }
 
     }
 }

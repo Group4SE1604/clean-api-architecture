@@ -9,13 +9,18 @@ namespace BuberDinner.Application.Persistence
     public interface IMenuRepository
     {
         void AddMenu(Menu menu);
-        Menu GetMenuById(Guid menuId);
+        Menu? GetMenuById(Guid menuId);
 
         List<Menu> GetMenus();
 
         void UpdateMenu(Menu menu);
 
         void DeleteMenu(Menu menu);
+
+        bool IsMenuExist(Guid menuId);
+
+
+
 
     }
 }

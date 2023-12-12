@@ -13,3 +13,5 @@ C:\Users\thaib\Desktop\FALL23\Learn Web API\BuberDinner\BuberDinner.Application\
 C:\Users\thaib\Desktop\FALL23\Learn Web API\BuberDinner\BuberDinner.Application\bin\Debug\net6.0\BuberDinner.Domain.pdb
 C:\Users\thaib\Desktop\FALL23\Learn Web API\BuberDinner\BuberDinner.Application\obj\Debug\net6.0\BuberDinner.Application.csproj.AssemblyReference.cache
 C:\Users\thaib\Desktop\FALL23\Learn Web API\BuberDinner\BuberDinner.Application\obj\Debug\net6.0\BuberDinner.Application.csproj.CopyComplete
+C:\Users\thaib\Desktop\FALL23\Learn Web API\BuberDinner\BuberDinner.Application\bin\Debug\net6.0\BuberDinner.Contracts.dll
+C:\Users\thaib\Desktop\FALL23\Learn Web API\BuberDinner\BuberDinner.Application\bin\Debug\net6.0\BuberDinner.Contracts.pdb

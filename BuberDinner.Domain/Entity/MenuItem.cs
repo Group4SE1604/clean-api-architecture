@@ -11,14 +11,11 @@ namespace BuberDinner.Domain.Entity
         public Guid ItemId { get; set; } = Guid.NewGuid();
         public string ItemName { get; set; } = null!;
         public decimal ItemPrice { get; set; }
+        [JsonIgnore]
         public Guid MenuId { get; set; }
 
         [JsonIgnore]
         public Menu Menu { get; set; } = null!;
-
-
-
-
 
     }
 }

@@ -17,3 +17,5 @@ C:\Users\thaib\Desktop\FALL23\Learn Web API\BuberDinner\BuberDinner.Infrastructu
 C:\Users\thaib\Desktop\FALL23\Learn Web API\BuberDinner\BuberDinner.Infrastructure\obj\Debug\net6.0\BuberDinner.Infrastructure.csproj.CopyComplete
 C:\Users\thaib\Desktop\FALL23\Learn Web API\BuberDinner\BuberDinner.Infrastructure\bin\Debug\net6.0\BuberDinner.Infrastructure.runtimeconfig.json
 C:\Users\thaib\Desktop\FALL23\Learn Web API\BuberDinner\BuberDinner.Infrastructure\obj\Debug\net6.0\BuberDinner.Infrastructure.genruntimeconfig.cache
+C:\Users\thaib\Desktop\FALL23\Learn Web API\BuberDinner\BuberDinner.Infrastructure\bin\Debug\net6.0\BuberDinner.Contracts.dll
+C:\Users\thaib\Desktop\FALL23\Learn Web API\BuberDinner\BuberDinner.Infrastructure\bin\Debug\net6.0\BuberDinner.Contracts.pdb

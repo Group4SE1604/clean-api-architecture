@@ -9,7 +9,6 @@ namespace BuberDinner.Contracts.Menu
 {
     public class CreateMenuRequest
     {
-
         public string MenuName { get; set; } = null!;
         public string MenuDescription { get; set; } = null!;
         public ICollection<MenuItemDto> MenuItems { get; set; } = null!;
