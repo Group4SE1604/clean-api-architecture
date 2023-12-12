@@ -47,7 +47,7 @@ namespace BuberDinner.Api.Controllers
         [HttpGet]
         public IActionResult SearchMenuItem(string itemName)
         {
-            var menuItem = _menuItemRepository.SearchMenuItem(itemName);
+            var menuItem = _menuItemService.GetMenuByName(itemName);
             return Ok(menuItem);
         }
 
