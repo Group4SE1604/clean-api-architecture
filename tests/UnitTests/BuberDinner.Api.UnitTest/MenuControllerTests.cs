@@ -5,12 +5,12 @@ using System.Threading.Tasks;
 
 namespace BuberDinner.Api.UnitTest
 {
-    public class MenuController
+    public class MenuControllerTests
     {
         [Fact]
         public void Test1()
         {
-            Assert.True(true);
+
         }
     }
 }
